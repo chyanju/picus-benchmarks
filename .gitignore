@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Circom compiled outputs (only under circom/)
+circom/**/*.r1cs
+circom/**/*.sym
+circom/**/*.json
+circom/**/*.log
+circom/**/*.wat
+circom/**/*.wasm
